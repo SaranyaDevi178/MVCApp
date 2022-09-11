@@ -157,12 +157,12 @@
   a,
   a:visited,
   a:hover {
-    color:  white;
+    color: #1976d2;
     text-decoration: none;
   }
   
   a:hover {
-    color:  white;
+    color: #125699;
   }
   
   .terminal {
@@ -173,7 +173,7 @@
     padding-top: 45px;
     margin-top: 8px;
     overflow: hidden;
-    background-color: rgba(15, 15, 16, 0.966);
+    background-color: rgb(15, 15, 16);
   }
   
   .terminal::before {
@@ -183,7 +183,7 @@
     left: 0;
     height: 4px;
     background: rgb(58, 58, 58);
-    color: #c4c3c2;
+    color: #c2c3c4;
     width: 100%;
     font-size: 2rem;
     line-height: 0;
@@ -231,14 +231,14 @@
   }
   
   .github-star-badge {
-    color: #2e2924;
+    color: #24292e;
     display: flex;
     align-items: center;
     font-size: 12px;
     padding: 3px 10px;
-    border: 1px solid rgba(27, 35, 28, 0.2);
+    border: 1px solid rgba(27,31,35,.2);
     border-radius: 3px;
-    background-image: linear-gradient(-180deg,#fcfafa,#eff2f6 90%);
+    background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
     margin-left: 4px;
     font-weight: 600;
   }

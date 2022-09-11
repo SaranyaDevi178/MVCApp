@@ -1,0 +1,30 @@
+<br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<tr>
+    <div  style="text-align:left;position: relative;left:-40%;top:30px;">
+        <form #form="ngForm">
+        <div class="container" style="text-align:right"> <!-- *ngIf="books.length>0;els" -->
+             <table style="text-align:right;background-color:cornflowerblue;position:relative ;right:-40%;">
+                 <thead>
+                     <th>
+                     Book Name</th>&nbsp;&nbsp;&nbsp;
+                     <th>Publisher</th>&nbsp;&nbsp;&nbsp;
+                     <th>View</th>
+                 </thead>
+                 <tbody *ngFor="let book of books" (click) = "onViewClick(book)">
+                     <tr>
+                        <td>{{ book.bookName }}</td>&nbsp;&nbsp;&nbsp;
+                         <td>{{ book.publisher}}</td>&nbsp;&nbsp;&nbsp;
+                         <td>
+                         <button class="Button" type="submit">View<i class="ffa fa-cart-plus"></i></button>
+                         </td>
+                     </tr>
+                 </tbody>
+             </table>
+         </div>
+        </form>
+       <tr>
+           <br>
+      <input type="text"  style="position: relative;left:300%;"   [(ngModel)]="bookContent"/>
+    </tr>
+    </div>
+    </tr>
